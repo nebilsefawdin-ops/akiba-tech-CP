@@ -1,0 +1,13 @@
+customer_name = input("Enter your name: ")
+product_name = input("Enter the product name: ")
+quantity = int(input("Enter the quantity: "))
+price_per_unit = float(input("Enter the price per unit: "))
+
+print("=======================")
+print("SHOPPING RECEIPT")
+print("=======================")
+print(f"Customer: {customer_name}")
+print(f"Product: {product_name}")
+print(f"Quantity: {quantity}")
+print(f"Price per unit: ${price_per_unit}")
+print(f"Total: ${quantity * price_per_unit}")
